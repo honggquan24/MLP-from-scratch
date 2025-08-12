@@ -76,24 +76,3 @@ venv\Scripts\activate     # Windows
 # Install requirements
 pip install -r requirements.txt
 
-
-## 5. Project Structure
-MLP-FROM-SCRATCH/
-│
-├── core/                     # Core implementation
-│   ├── activations.py        # Activation functions
-│   ├── app.py                # Dash-based visualizer
-│   ├── layers.py             # Layer classes
-│   ├── loss.py               # Loss functions
-│   ├── network.py            # NeuralNetwork class
-│   ├── optimizers.py         # Optimizers
-│   └── utils.py              # Utilities (save/load, batching, etc.)
-│
-├── mlp/                      # Example models
-│
-├── notebook/                 # Jupyter notebooks
-│
-├── tests/                    # Unit tests
-├── README.md
-└── requirements.txt
-
