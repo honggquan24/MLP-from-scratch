@@ -6,7 +6,7 @@
 
 A fully **from-scratch** implementation of a **Multi-Layer Perceptron (MLP)** in Python using only **NumPy**, complete with forward/backward propagation, multiple activation functions, optimizers, loss functions, and visualization support. This project is designed for learning, experimenting, and extending neural network fundamentals without relying on high-level frameworks like TensorFlow or PyTorch.
 
----
+
 
 ## 1. Introduction
 
@@ -31,7 +31,7 @@ It is suitable for:
 ![Regression Fit](notebook/images/regression_result.png)
 > Fitting a non-linear function using the MLP regressor.
 
----
+
 
 ## 2. Key Features
 
@@ -51,7 +51,7 @@ It is suitable for:
 - **Testing**:
   - Unit tests for activations, layers, and loss functions.
 
----
+
 
 ## 3. System Requirements
 
