@@ -43,7 +43,7 @@ Fitting a non-linear function using the MLP regressor.
   - Fully-connected (`Linear`) layers
   - Activation layers: ReLU, Sigmoid, Tanh, Leaky ReLU, Softmax
   - Dropout layer for regularization
-  - Batch Normalization (1D and 2D)
+  - Batch Normalization (1D)
 
 - **Loss Functions:**
   - Mean Squared Error (MSE)
