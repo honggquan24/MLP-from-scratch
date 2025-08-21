@@ -7,7 +7,7 @@
 A fully from-scratch implementation of a Multi-Layer Perceptron (MLP) in Python using only NumPy.  
 Includes forward/backward propagation, multiple activation functions, optimizers, loss functions, dropout, batch normalization, and visualization support.  
 This project is designed for learning, experimenting, and extending neural network fundamentals without relying on high-level frameworks like TensorFlow or PyTorch.
-Explore the Multilayer Perceptron demo live at: https://vhq-portfolio.streamlit.app/Multilayer_Perceptron 
+Explore the Multilayer Perceptron demo live at: [https://vhq-portfolio.streamlit.app/Multilayer_Perceptron ](https://vhq-portfolio.streamlit.app/MLP)
 
 ---
 
