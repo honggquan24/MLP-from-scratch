@@ -7,10 +7,11 @@
 A fully from-scratch implementation of a Multi-Layer Perceptron (MLP) in Python using only NumPy.  
 Includes forward/backward propagation, multiple activation functions, optimizers, loss functions, dropout, batch normalization, and visualization support.  
 This project is designed for learning, experimenting, and extending neural network fundamentals without relying on high-level frameworks like TensorFlow or PyTorch.
+Explore the Multilayer Perceptron demo live at: https://vhq-portfolio.streamlit.app/Multilayer_Perceptron 
 
 ---
 
-## 1. Introduction
+# Introduction
 
 This project provides an educational and transparent implementation of a Multi-Layer Perceptron (MLP) built entirely from scratch using NumPy.
 
@@ -21,7 +22,7 @@ This project provides an educational and transparent implementation of a Multi-L
 
 ---
 
-## 2. Demo Screenshots
+# Demo Screenshots
 
 ### 1. Spiral Classification  
 ![Spiral Classification](notebook/images/spiral_result.png)  
@@ -37,7 +38,7 @@ Fitting a non-linear function using the MLP regressor.
 
 ---
 
-## 3. Key Features
+# Key Features
 
 - **Layer Implementations:**
   - Fully-connected (`Linear`) layers
@@ -66,7 +67,7 @@ Fitting a non-linear function using the MLP regressor.
 
 ---
 
-## 4. System Requirements
+# System Requirements
 
 - Python 3.8 or later  
 - Required libraries:
@@ -78,7 +79,7 @@ Fitting a non-linear function using the MLP regressor.
   ```
 ---
 
-## 5. Installation & Usage
+# Installation & Usage
 
 Clone the repository:
 
@@ -103,7 +104,7 @@ pip install -r requirements.txt
 
 ---
 
-## 6. Folder Structure
+# Folder Structure
 
 ```
 MLP-FROM-SCRATCH/
@@ -118,3 +119,10 @@ MLP-FROM-SCRATCH/
 └── notebook/
     └── images/           # Visualizations: spiral_result.png, mnist_predictions.png, etc.
 ```
+
+# Configuration
+No specific configuration files are used. The MLP’s hyperparameters (e.g., number of layers, neurons per layer, learning rate) are set directly within the Jupyter notebooks.
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details. (Note: No LICENSE file was detected in the repository’s contents.)
+
