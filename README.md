@@ -4,8 +4,8 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Framework](https://img.shields.io/badge/Framework-NumPy-orange)
 
-A fully from-scratch implementation of a Multi-Layer Perceptron (MLP) in Python using only NumPy.  
-Includes forward/backward propagation, multiple activation functions, optimizers, loss functions, dropout, batch normalization, and visualization support.  
+A fully from-scratch implementation of a Multi-Layer Perceptron (MLP) in Python using only NumPy.
+Includes forward/backward propagation, multiple activation functions, optimizers, loss functions, dropout, batch normalization, and visualization support.
 This project is designed for learning, experimenting, and extending neural network fundamentals without relying on high-level frameworks like TensorFlow or PyTorch.
 Explore the Multilayer Perceptron demo live at: [https://vhq-portfolio.streamlit.app/Multilayer_Perceptron ](https://vhq-portfolio.streamlit.app/MLP)
 
@@ -24,16 +24,16 @@ This project provides an educational and transparent implementation of a Multi-L
 
 # Demo Screenshots
 
-### 1. Spiral Classification  
-![Spiral Classification](notebook/images/spiral_result.png)  
+### 1. Spiral Classification
+![Spiral Classification](notebook/images/spiral_result.png)
 A 2D spiral dataset correctly classified by the trained MLP.
 
-### 2. MNIST Digit Recognition  
-![MNIST Results](notebook/images/mnist_predictions.png)  
+### 2. MNIST Digit Recognition
+![MNIST Results](notebook/images/mnist_predictions.png)
 Sample predictions on the MNIST dataset after training.
 
-### 3. Regression Task  
-![Regression Fit](notebook/images/regression_result.png)  
+### 3. Regression Task
+![Regression Fit](notebook/images/regression_result.png)
 Fitting a non-linear function using the MLP regressor.
 
 ---
@@ -69,7 +69,7 @@ Fitting a non-linear function using the MLP regressor.
 
 # System Requirements
 
-- Python 3.8 or later  
+- Python 3.8 or later
 - Required libraries:
   ```bash
   numpy>=1.21.0
@@ -125,4 +125,3 @@ No specific configuration files are used. The MLP’s hyperparameters (e.g., num
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details. (Note: No LICENSE file was detected in the repository’s contents.)
-

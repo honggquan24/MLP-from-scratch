@@ -1,0 +1,21 @@
+repos:
+  # 1) Sửa file kết thúc bằng newline và xóa trailing spaces
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  # 2) Sắp xếp import trước khi format (để black không chỉnh đi chỉnh lại)
+  - repo: https://github.com/pycqa/isort
+    rev: 5.13.2
+    hooks:
+      - id: isort
+        args: ["--profile", "black"]  # đồng bộ style với black
+
+  # 3) Format code Python (Black)
+  - repo: https://github.com/psf/black
+    rev: 24.4.2
+    hooks:
+      - id: black
+        language_version: python3

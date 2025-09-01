@@ -1,12 +1,13 @@
 import numpy as np
 
+
 class Spiral:
     def __init__(self, n_points, n_classes, n_dimensions):
         self.N = n_points
         self.D = n_dimensions
         self.K = n_classes
         self.P = np.zeros((self.N * self.K, self.D))
-        self.L = np.zeros(self.N * self.K, dtype='uint8')
+        self.L = np.zeros(self.N * self.K, dtype="uint8")
         for j in range(self.K):
             ix = range(self.N * j, self.N * (j + 1))
             r = np.linspace(0.0, 1, self.N)
@@ -24,7 +25,7 @@ class Line:
         self.D = n_dimensions
         self.K = n_classes
         self.P = np.zeros((self.N * self.K, self.D))
-        self.L = np.zeros(self.N * self.K, dtype='uint8')
+        self.L = np.zeros(self.N * self.K, dtype="uint8")
         for j in range(self.K):
             a = 2 * j - 2
             b = np.random.randn(self.N) * 2
@@ -44,7 +45,7 @@ class Circle:
         self.D = n_dimensions
         self.K = n_classes
         self.P = np.zeros((self.N * self.K, self.D))
-        self.L = np.zeros(self.N * self.K, dtype='uint8')
+        self.L = np.zeros(self.N * self.K, dtype="uint8")
         for j in range(self.K):
             ix = range(self.N * j, self.N * (j + 1))
             r = (j + 1) * 2 + np.random.randn(self.N) * 0.5
@@ -65,7 +66,7 @@ class Zone:
         self.D = n_dimensions
         self.K = n_classes
         self.P = np.zeros((self.N * self.K, self.D))
-        self.L = np.zeros(self.N * self.K, dtype='uint8')
+        self.L = np.zeros(self.N * self.K, dtype="uint8")
         pi = np.pi
         for j in range(self.K):
             theta = j * (2 * pi) / self.K
@@ -91,7 +92,7 @@ class Zone_3D:
         self.K = n_classes
         self.centers = centers
         self.P = np.zeros((self.N * self.K, self.D))
-        self.L = np.zeros(self.N * self.K, dtype='uint8')
+        self.L = np.zeros(self.N * self.K, dtype="uint8")
         for j in range(self.K):
             center = np.array(self.centers[j])
             ix = range(self.N * j, self.N * (j + 1))
@@ -126,5 +127,7 @@ class GeneratePolynomialData:
         np.savetxt(file_name, combined_data, delimiter=",", header="x,y", comments="")
 
     def get_init_gen(self):
-        equation = " + ".join(f"{c}*x^{i}" for i, c in enumerate(self.coefficients[::-1]))
+        equation = " + ".join(
+            f"{c}*x^{i}" for i, c in enumerate(self.coefficients[::-1])
+        )
         print(f"Actual polynomial: {equation}")
